@@ -3,9 +3,9 @@ import { educationDetails } from "../Constants";
 import { motion } from "framer-motion";
 
 const logos = {
-  "RSS International School": "/src/assets/RSS.png",
-  "National Institute of Open Schooling": "/src/assets/NIOS.png",
-  "Greater Noida Institute of technology": "/src/assets/GNIOT.png",
+  "RSS International School": "/RSS.png",
+  "National Institute of Open Schooling": "/NIOS.png",
+  "Greater Noida Institute of technology": "/GNIOT.png",
 };
 
 const containerVariants = {

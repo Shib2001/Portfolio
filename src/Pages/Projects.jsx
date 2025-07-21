@@ -26,36 +26,31 @@ import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from "react-icons/fa";
 import { SiBootstrap, SiReactrouter } from "react-icons/si";
 import { motion } from "framer-motion";
 
-import Pro1 from "../assets/Pro-1.png";
-import Pro2 from "../assets/Pro-2.png";
-import Pro3 from "../assets/Pro-3.png";
-import Pro4 from "../assets/Pro-4.png";
-
 const projects = [
   {
     title: "Movie Guide App",
-    image: Pro3,
+    image: "/Pro-3.png",
     tech: ["js", "html", "css", "bootstrap"],
     website: "https://movie-guide-app-beryl.vercel.app/",
     source: "https://github.com/Shib2001/Movie-Guide-App",
   },
   {
     title: "Weather App",
-    image: Pro2,
+    image: "/Pro-2.png",
     tech: ["html", "css", "js"],
     website: "https://my-weather-app-six-gamma.vercel.app/",
     source: "https://github.com/Shib2001/My-Weather-app.git",
   },
   {
     title: "World Atlas App",
-    image: Pro1,
+    image: "/Pro-1.png",
     tech: ["react", "reactrouter", "js", "html", "css"],
     website: "https://shivkj-atlas.netlify.app/",
     source: "https://github.com/Shib2001/Atlas-app.git",
   },
   {
     title: "Simon Says Game",
-    image: Pro4,
+    image: "/Pro-4.png",
     tech: ["js", "html", "css"],
     website: "https://simon-says-tawny.vercel.app/",
     source: "https://github.com/Shib2001/simon-says",

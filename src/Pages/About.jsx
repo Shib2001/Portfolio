@@ -95,7 +95,7 @@ const About = () => {
             }}
           >
             <img
-              src="/src/assets/first.png"
+              src="/first.png"
               alt="Shiv Kumar Jha"
               className="w-36 h-36 xs:w-52 xs:h-52 sm:w-64 sm:h-64 md:w-92 md:h-92 object-cover rounded-full"
               style={{
