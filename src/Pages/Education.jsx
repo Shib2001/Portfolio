@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const logos = {
   "RSS International School": "/RSS.png",
   "National Institute of Open Schooling": "/NIOS.png",
-  "Greater Noida Institute of technology": "/GNIOT.png",
+  "Greater Noida Institute of technology": "/Gniot.png",
 };
 
 const containerVariants = {

@@ -14,7 +14,7 @@ const contactRows = [
   {
     icon: <FaInstagram className="text-pink-400 text-xl" />,
     label: "Instagram",
-    link: "https://instagram.com/s.h.i.v__20",
+    link: "https://instagram.com/s_h_i_v___21",
     isLink: true,
   },
   {
@@ -156,7 +156,7 @@ const Contact = () => {
           ))}
         </motion.div>
         <a
-          href="/final_dev_resume.pdf"
+          href="/Shiv_kumar_jha__8882316381.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-3 sm:mt-4"

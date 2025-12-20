@@ -16,7 +16,7 @@ export const educationDetails = [
   {
     level: "B.Tech (ECE)",
     year: 2025,
-    cgpa: "5.9",
+    cgpa: "6.2",
     college: "Greater Noida Institute of technology",
     branch: "Electronics & Communication Engineering",
     location: "Greater Noida",

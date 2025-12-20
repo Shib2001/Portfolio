@@ -5,7 +5,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <FaInstagram size={19} />,
-      href: "https://www.instagram.com/s.h.i.v__20/",
+      href: "https://www.instagram.com/s_h_i_v___21/",
       label: "Instagram",
     },
     {

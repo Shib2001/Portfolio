@@ -63,13 +63,13 @@ const About = () => {
             className="text-lg xs:text-xl sm:text-2xl font-normal mb-4 md:mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent md:ml-9"
             variants={textVariants}
           >
-            Front End Developer
+            Web Developer
           </motion.h2>
           <motion.p
             className="text-white text-sm xs:text-base md:text-base opacity-50 max-w-xs xs:max-w-sm sm:max-w-md mb-2 md:ml-9"
             variants={textVariants}
           >
-            Creative and detail-oriented Front End Developer specializing in
+            Creative and detail-oriented Web Developer specializing in
             React and Tailwind CSS. Skilled in building responsive, accessible,
             and visually engaging web applications. Experienced in collaborating
             with teams to deliver high-quality products and seamless user
@@ -139,7 +139,7 @@ const About = () => {
           }}
           viewport={{ once: true, amount: 0.7 }}
         >
-          Hey there! It's me Shiv kumar jha and this is my portolio a place
+          Hey there! It's me Shiv kumar jha and this is my portfolio a place
           where you can explore my projects, skills, and journey as a developer.
           Feel free to check out the Projects section to see what I've built,
           the Skills section to know my tech stack, and the Contact page to

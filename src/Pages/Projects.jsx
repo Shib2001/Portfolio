@@ -23,10 +23,27 @@ function useIsDesktop() {
   return isDesktop;
 }
 import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from "react-icons/fa";
-import { SiBootstrap, SiReactrouter } from "react-icons/si";
+import {
+  SiBootstrap,
+  SiReactrouter,
+  SiFirebase,
+  SiTailwindcss,
+  SiAxios,
+  SiSupabase,
+  SiFramer,
+  SiWikipedia,
+} from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const projects = [
+  {
+    title: "Travelvista",
+    image: "/Pro-5.jpg",
+    tech: ["html", "css", "js", "react", "firebase", "reactrouter", "reacticons", "wikipediaapi", "axios", "tailwind"],
+    website: "https://travelling-bice.vercel.app/",
+    source: "https://github.com/Shib2001/travelling",
+  },
   {
     title: "Movie Guide App",
     image: "/Pro-3.png",
@@ -35,11 +52,11 @@ const projects = [
     source: "https://github.com/Shib2001/Movie-Guide-App",
   },
   {
-    title: "Weather App",
-    image: "/Pro-2.png",
-    tech: ["html", "css", "js"],
-    website: "https://my-weather-app-six-gamma.vercel.app/",
-    source: "https://github.com/Shib2001/My-Weather-app.git",
+    title: "My Diary",
+    image: "/Pro-6.jpg",
+    tech: ["html", "css", "js", "react", "supabase", "reactrouter", "reacticons", "tailwind", "framer"],
+    website: "https://shiv-diary-app.vercel.app/",
+    source: "https://github.com/Shib2001/Diary-App",
   },
   {
     title: "World Atlas App",
@@ -47,6 +64,13 @@ const projects = [
     tech: ["react", "reactrouter", "js", "html", "css"],
     website: "https://shivkj-atlas.netlify.app/",
     source: "https://github.com/Shib2001/Atlas-app.git",
+  },
+  {
+    title: "Weather App",
+    image: "/Pro-2.png",
+    tech: ["html", "css", "js"],
+    website: "https://my-weather-app-six-gamma.vercel.app/",
+    source: "https://github.com/Shib2001/My-Weather-app.git",
   },
   {
     title: "Simon Says Game",
@@ -92,6 +116,48 @@ const techIcons = {
     <SiReactrouter
       className="text-red-400 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
       title="React Router"
+    />
+  ),
+  firebase: (
+    <SiFirebase
+      className="text-yellow-500 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Firebase"
+    />
+  ),
+  tailwind: (
+    <SiTailwindcss
+      className="text-teal-400 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Tailwind CSS"
+    />
+  ),
+  axios: (
+    <SiAxios
+      className="text-blue-400 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Axios"
+    />
+  ),
+  reacticons: (
+    <TbBrandReactNative
+      className="text-pink-400 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="React Icons"
+    />
+  ),
+  wikipediaapi: (
+    <SiWikipedia
+      className="text-gray-300 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Wikipedia API"
+    />
+  ),
+  supabase: (
+    <SiSupabase
+      className="text-emerald-400 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Supabase"
+    />
+  ),
+  framer: (
+    <SiFramer
+      className="text-pink-500 text-2xl transform transition-all duration-300 hover:scale-125 cursor-pointer"
+      title="Framer Motion"
     />
   ),
 };
